@@ -9,6 +9,6 @@ while True:
     rssi = wlan.status("rssi")
     time.sleep(1)
     oled.fill(0)
-    oled.text(status.content, 1, 10)
+    oled.text((status.content).rstrip(), 1, 10)
     oled.text(str(rssi), 1, 20,) 
     oled.show()
