@@ -8,7 +8,7 @@ display = ssd1306.SSD1306_I2C(128, 64, i2c)
 
 images = []
 for n in range(1,7):
-    with open('seq0000%s.pbm' % n, 'rb') as f:
+    with open('seq/seq0000%s.pbm' % n, 'rb') as f:
         f.readline() # Magic number
         f.readline() # Dimensions
         data = bytearray(f.read())
