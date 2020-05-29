@@ -1,3 +1,4 @@
+# nwgat.ninja
 import machine, ssd1306, urequests, network, time
 
 wlan = network.WLAN(network.STA_IF)
