@@ -1,4 +1,8 @@
 # nwgat.ninja
+# GND > GND
+# VCC > 3.3V
+# SCL > 22 SCL
+# SDA > 21 SDA
 
 from machine import I2C, Pin
 import ssd1306, framebuf, time
