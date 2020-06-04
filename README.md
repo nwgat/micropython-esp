@@ -1,2 +1,2 @@
 # nwgat.ninja
-working scripts for Wemo D1 Mini & D32
+python scripts for Wemo D1 Mini & D32
